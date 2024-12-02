@@ -2,8 +2,6 @@ package com.dni;
 
 import java.util.Scanner;
 
-import com.DniCalculator;
-
 public final class App {
 
     public static void main(String[] args) {
@@ -27,7 +25,7 @@ public final class App {
         scanner.close();
     }
 
-    private static boolean isValidNumber(String input) {
+    public static boolean isValidNumber(String input) {
         try {
             int number = Integer.parseInt(input);
             return number >= 0 && number <= 99999999;

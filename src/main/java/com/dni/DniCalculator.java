@@ -1,4 +1,4 @@
-package com;
+package com.dni;
 
 public class DniCalculator {
     private static final char[] LETTERS = {
