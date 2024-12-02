@@ -1,29 +1,30 @@
 # DNI Calculator
 
-Este proyecto es una aplicación de consola en Java que calcula la letra correspondiente al DNI (Documento Nacional de Identidad) en España.
+This project is a Java console application that calculates the corresponding letter for a Spanish DNI (National Identity Document).
 
-## Descripción
+## Description
 
-La aplicación permite al usuario introducir un número de DNI (entre 0 y 99999999) y calcula la letra correspondiente utilizando el algoritmo oficial. Si el usuario introduce un dato incorrecto, la aplicación solicita nuevamente un número válido.
+The application allows the user to input a DNI number (between 0 and 99999999) and calculates the corresponding letter using the official algorithm. If the user enters invalid data, the application will prompt them to try again until a valid number is provided.
 
-### Algoritmo de cálculo
-1. El número del DNI se divide entre 23 y se obtiene el resto (módulo 23).
-2. Según el resultado del módulo, se asigna una letra de la siguiente lista:  
+### Calculation Algorithm
+1. The DNI number is divided by 23, and the remainder (modulo 23) is obtained.
+2. Based on the remainder, a letter is assigned from the following list:  
    **T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E**.
 
-## Estructura del proyecto
+## Project Structure
 
-- `DniApp`: Clase principal que gestiona la interacción con el usuario.
-- `DniCalculator`: Clase que contiene la lógica para calcular la letra del DNI.
-- **Tests unitarios**: Se han implementado pruebas con JUnit para validar la funcionalidad del cálculo.
+- `App`: Main class that handles user interaction.
+- `DniCalculator`: Class containing the logic for calculating the DNI letter.
+- **Unit Tests**: Tests are implemented using JUnit to validate the functionality of the calculation.
 
-## Requisitos
+## Requirements
 
-- **Java 21** o superior.
-- **JUnit 5** para pruebas unitarias.
+- **Java 21** or later.
+- **JUnit 5** for unit testing.
 
-## Ejecución
+## How to Run
 
-1. Clona este repositorio:
+1. Clone this repository:
    ```bash
    git clone https://github.com/OlenaMyroshnykova/DNI.git
+
