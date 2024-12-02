@@ -27,4 +27,16 @@ The application allows the user to input a DNI number (between 0 and 99999999) a
 1. Clone this repository:
    ```bash
    git clone https://github.com/OlenaMyroshnykova/DNI.git
+   ```
+## Tests
+To run the unit tests:
 
+Ensure JUnit 5 is configured in your development environment.
+Run the tests using your IDE or a build tool such as Maven or Gradle.
+Code Coverage
+The minimum required code coverage for tests is 70%. Examples of the implemented tests are provided in the file DniCalculatorTest.java.
+
+## Code Coverage Screenshot
+
+## HowAuthor
+Project developed by Olena Myroshnykova.
