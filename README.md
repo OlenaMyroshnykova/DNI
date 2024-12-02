@@ -37,6 +37,7 @@ Code Coverage
 The minimum required code coverage for tests is 70%. Examples of the implemented tests are provided in the file DniCalculatorTest.java.
 
 ## Code Coverage Screenshot
+<img src="./src/main/java/com/dni/images/DNI coverage.png" title="coverage report" alt="coverage report"/>
 
 ## HowAuthor
 Project developed by Olena Myroshnykova.
